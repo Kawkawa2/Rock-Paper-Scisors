@@ -40,11 +40,11 @@ const playRound = () => {
       } else if (!isPlayerWining) {
         scoreComputer++;
       }
-      // console.log(list[playerSelection - 1], " ", ComputerSelection);
+      console.log(list[playerSelection - 1], " ", ComputerSelection);
     }
   }
-  // console.log(scorePlayer);
-  // console.log(scoreComputer);
+  console.log(scorePlayer);
+  console.log(scoreComputer);
   if (
     (scorePlayer === 0 && ComputerSelection === 0) ||
     scorePlayer === scorePlayer
